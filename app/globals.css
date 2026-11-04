@@ -1,0 +1,14 @@
+/* Include padding and borders in element widths. */
+* {
+  box-sizing: border-box;
+}
+
+/* Shared defaults for the entire app. */
+body {
+  margin: 0;
+  background: #f1f5f9;
+  color: #172554;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+}
+

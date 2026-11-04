@@ -1,0 +1,41 @@
+.header {
+    background: #172554;
+    color: white;
+}
+
+/* Keep the title and navigation aligned. */
+.content {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.title {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+}
+
+.header a:hover {
+    text-decoration: underline;
+}
+
+/* Show which link is selected when using a keyboard. */
+.header a:focus-visible {
+    outline: 3px solid #7dd3fc;
+    outline-offset: 4px;
+}
